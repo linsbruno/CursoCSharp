@@ -29,9 +29,9 @@ namespace CursoCSharp.Fundamentos {
             int.TryParse(palavra, out numero); //tenta passar o string para número
             Console.WriteLine("resultado : {0}", numero);
 
-            Console.WriteLine("Digite o segndo numero: ");
+            Console.WriteLine("Digite o segundo numero: ");
             int.TryParse(Console.ReadLine(), out int numero2);
-            Console.WriteLine("{0}" , numero2);
+            Console.WriteLine("o resultado 2: {0}" , numero2);
 
              
 
