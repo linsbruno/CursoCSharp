@@ -11,13 +11,15 @@ namespace CursoCSharp.Fundamentos {
             var executouTrabalho2 = false;
 
             var comprouTv50 = executouTrabalho1 && executouTrabalho2;
-            Console.WriteLine("Comprou a tv de 50 polegadas? {0}",comprouTv50);
+            Console.WriteLine("Comprou a tv de 50 polegadas? {0}",comprouTv50); // E lógico
 
-            var comprouSorvete = executouTrabalho1 || executouTrabalho2;
+            var comprouSorvete = executouTrabalho1 || executouTrabalho2; // OU lógico
             Console.WriteLine("comprou sorvete ?{0}", comprouSorvete);
 
-            var comrpouTv32 = executouTrabalho1 ^ executouTrabalho2;
-            Console.WriteLine("comprou tv de 32 polegadas? {0}", comrpouTv32);
+            var comprouTv32 = executouTrabalho1 ^ executouTrabalho2; // OU exclusivo (XOR)
+            Console.WriteLine("comprou tv de 32 polegadas? {0}", comprouTv32);
+
+            Console.WriteLine("mais saudavel? {0}", !comprouSorvete); // Negação de forma unária
 
         }
     }
